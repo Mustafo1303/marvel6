@@ -1,0 +1,337 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  
+   
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+   
+   
+    text-align: center;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    main {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    main {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+.red{
+    margin-left: 120px;
+    margin-top: 190px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    color: rgb(200, 33, 33);
+    
+}
+.red img{
+    border-radius: 18px;
+}
+.red p{
+    margin-left: 450px;
+    margin-top: -360px;
+    font-size: 40px;
+    font-family: "Funnel Display", sans-serif;
+}
+.red span{
+    font-size: 10px;
+    width: 100px;
+    
+}
+h1{
+  position: absolute;
+    left: 550px;
+    top: 10px;
+    font-size: 90px;
+    color: white;
+    color: 50%black 50%white;
+
+    
+}
+.red button{
+       background-color: rgb(50, 5, 5);
+       color: rgb(254, 252, 252);
+       border-radius: 10px;
+       border: 2px solid white;
+       width: 150px;
+       height: 55px;
+       margin-left: 590px;
+       margin-top: 30px;
+}
+.blue{
+    margin-left: 700px;
+    margin-top: 230px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    
+    
+}
+.blue img{
+    border-radius: 18px;
+}
+.blue p{
+    margin-left: 400px;
+    margin-top: -290px;
+    font-size: 30px;
+    font-family: "Funnel Display", sans-serif;
+    color: rgb(255, 208, 0);
+}
+.blue span{
+    font-size: 10px;
+    width: 100px;
+    color: rgb(167, 6, 6);
+    
+}
+.blue button{
+    background-color: rgb(50, 5, 5);
+    color: rgb(254, 252, 252);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 55px;
+    margin-left: 620px;
+    margin-top: 0px;
+}
+.red1{
+    margin-left: 120px;
+    margin-top: 190px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+   
+    
+}
+.red1 img{
+    border-radius: 18px;
+}
+.red1 p{
+    margin-left: 450px;
+    margin-top: -360px;
+    font-size: 40px;
+    font-family: "Funnel Display", sans-serif;
+    color: blue;
+}
+.red1 span{
+    font-size: 5px;
+    width: 10px;
+    color: rgb(200, 33, 33);
+    
+}
+.red1 button{
+    background-color: rgb(50, 5, 5);
+    color: rgb(254, 252, 252);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 55px;
+    margin-left: 590px;
+    margin-top: 30px;
+}
+.blue1{
+    margin-left: 700px;
+    margin-top: 230px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    
+    
+}
+.blue1 img{
+    border-radius: 18px;
+}
+.blue1 p{
+    margin-left: 400px;
+    margin-top: -340px;
+    font-size: 30px;
+    font-family: "Funnel Display", sans-serif;
+    color: rgb(3, 86, 3);
+}
+.blue1 span{
+    font-size: 23px;
+    width: 100px;
+    color: rgb(9, 255, 9);
+    
+}
+.blue1 button{
+    background-color: rgb(50, 5, 5);
+    color: rgb(254, 252, 252);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 55px;
+    margin-left: 620px;
+    margin-top: 6px;
+}
+.red2{
+    margin-left: 120px;
+    margin-top: 190px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-family: "Inter";
+   
+    
+}
+.red2 img{
+    border-radius: 18px;
+}
+.red2 p{
+    margin-left: 450px;
+    margin-top: -350px;
+    font-size: 40px;
+    font-family: "Funnel Display", sans-serif;
+    color: blue;
+}
+.red2 span{
+    font-size: 9px;
+    width: 1000px;
+    color: rgb(72, 67, 67);
+    
+}
+.red2 button{
+    background-color: rgb(50, 5, 5);
+    color: rgb(254, 252, 252);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 55px;
+    margin-left: 590px;
+    margin-top: 10px;
+}
+.blue2{
+    margin-left: 700px;
+    margin-top: 230px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    
+    
+}
+.blue2 img{
+    border-radius: 18px;
+}
+.blue2 p{
+    margin-left: 400px;
+    margin-top: -340px;
+    font-size: 30px;
+    font-family: "Funnel Display", sans-serif;
+    color: rgb(248, 150, 5);
+}
+.blue2 span{
+    font-size: 20px;
+    width: 100px;
+    color: white;
+    
+}
+.blue2 button{
+    background-color: rgb(50, 5, 5);
+    color: rgb(254, 252, 252);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 55px;
+    margin-left: 620px;
+    margin-top: -6px;
+}
+.red3{
+    margin-left: 120px;
+    margin-top: 190px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-family: "Inter";
+   
+    
+}
+.red3 img{
+    border-radius: 18px;
+}
+.red3 p{
+    margin-left: 450px;
+    margin-top: -350px;
+    font-size: 40px;
+    font-family: "Funnel Display", sans-serif;
+    color: blue;
+}
+.red3 span{
+    font-size: 15px;
+    width: 1000px;
+    color: rgb(72, 67, 67);
+    
+}
+.red3 button{
+    background-color: rgb(50, 5, 5);
+    color: rgb(254, 252, 252);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 55px;
+    margin-left: 590px;
+    margin-top: 10px;
+}
+h2{
+    color: white;
+   margin-left: 550px;
+    margin-top: 40px;
+    font-size: 90px;
+
+}
+.hero{
+    font-weight: 500;
+}

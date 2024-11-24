@@ -1,0 +1,167 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  
+   
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+   
+   
+    text-align: center;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    main {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    main {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.mavzu{
+    color: green;
+    font-size: 90px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loki h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: green;
+    font-size: 80px;
+}
+.loki p{
+   color: black;
+   font-size: 25px;
+   text-shadow: 2px 1px 0px grey;
+}
+.loki button{
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 590px;
+    margin-top: 25px;
+}
+.tanos h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: rgb(102, 0, 128);
+    font-size: 80px;
+}
+.tanos p{
+   color: black;
+   font-size: 25px;
+   text-shadow: 2px 1px 0px grey;
+}
+.tanos button{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(102, 0, 128);
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 590px;
+    margin-top: 25px;
+}
+.ultron h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: rgb(111, 110, 111);
+    font-size: 80px;
+}
+.ultron p{
+   color: rgb(164, 11, 11);
+   font-size: 25px;
+   text-shadow: 2px 1px 0px grey;
+}
+.ultron button{
+    width: 400px;
+    height: 50px;
+    background-color: grey;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 590px;
+    margin-top: 25px;
+}
+.doom h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: green;
+    font-size: 80px;
+}
+.doom p{
+   color: grey;
+   font-size: 25px;
+   text-shadow: 2px 1px 0px grey;
+}
+.doom button{
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 590px;
+    margin-top: 25px;
+    
+}
